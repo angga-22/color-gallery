@@ -1,0 +1,17 @@
+@import "typography";
+@import "base_colors";
+@import "./components/button.scss";
+@import "./components/card.scss";
+@import "./components/form.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+.container {
+  background-color: $primary;
+  width: 80%;
+  margin: 0 auto;
+}

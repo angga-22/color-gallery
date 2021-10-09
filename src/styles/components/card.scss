@@ -1,0 +1,24 @@
+@import "../base_colors.scss";
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: rgb(218, 218, 218);
+}
+.square-wrapper {
+  margin: 10px;
+  .square {
+    width: 150px;
+    height: 140px;
+    border-radius: 5px;
+  }
+  p {
+    color: $secondary;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
